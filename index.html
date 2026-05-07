@@ -8,12 +8,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <input type="checkbox" id="theme-switch">
+    <div class="page-wrapper">
     <header>
         <div class="container">
-            <h1>Hoàng Văn Vinh</h1>
-            <p>Đồ họa kỹ thuật số</p>
+            <div class="logo">
+                <h1>Hoàng Văn Vinh</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Trang chủ</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <label for="theme-switch" class="toggle-label">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
         </div>
     </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-gallery">
+                <div class="gallery-item" style="background-color: #ff6b6b;"></div>
+                <div class="gallery-item" style="background-color: #4ecdc4;"></div>
+                <div class="gallery-item" style="background-color: #f39c12;"></div>
+                <div class="gallery-item" style="background-color: #9b59b6;"></div>
+                <div class="gallery-item" style="background-color: #e74c3c;"></div>
+                <div class="gallery-item" style="background-color: #27ae60;"></div>
+            </div>
+            <div class="hero-text">
+                <h2>Chào mừng đến với Portfolio của tôi</h2>
+                <p>Khám phá các tác phẩm thiết kế đồ họa kỹ thuật số sáng tạo</p>
+            </div>
+        </div>
+    </section>
 
     <section id="about">
         <div class="container">
@@ -70,5 +104,6 @@
             <p>&copy; 2026 Hoàng Văn Vinh. Tất cả quyền được bảo lưu.</p>
         </div>
     </footer>
+    </div>
 </body>
 </html>
